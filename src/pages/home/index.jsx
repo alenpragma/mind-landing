@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import MindcahinInNumbers from "./MindcahinInNumbers";
 import Navbar from "./Navbar";
@@ -20,6 +21,7 @@ const Home = () => {
      <TimeUntilIcoClose />
      <OurOtherProject />
      <OurRoadMap />
+     <Footer />
     </>
   );
 };

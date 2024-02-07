@@ -30,7 +30,7 @@ const mindChainNumber = [
 
 const MindcahinInNumbers = () => {
   return (
-    <div className="w-full mb-32 bg-gradient-to-bl from-[#988753] via-[#d2ab35] to-[#FFDC73] ">
+    <div className="w-full bg-gradient-to-bl from-[#988753] via-[#d2ab35] to-[#FFDC73] ">
       <Container className="pt-[73px] pb-20">
         <Heading className="pb-[100px]">Mindcahin in numbers</Heading>
         <div className="grid grid-cols-12">

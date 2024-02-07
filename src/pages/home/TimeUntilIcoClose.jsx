@@ -15,22 +15,22 @@ const TimeUntilIcoClose = () => {
         <div className="flex flex-wrap gap-3 lg:gap-12">
           <div className="w-[150px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
             <div
-              className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center"
-              style={{ boxShadow: "#000000 0px 10px 20px -15px" }}
+              className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+              style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
             >
               <span className="lg:text-[26px] text-[18px] font-medium">
                 Month
               </span>
             </div>
-            <div
-              className=" py-[18px] rounded-b-lg text-center bg-[#FFFFFF]"
-              style={{ boxShadow: "#000000 0px -10px 20px -15px" }}
-            >
+            <div className=" py-[18px] rounded-b-lg text-center bg-[#FFFFFF]">
               <span className="lg:text-[26px] text-[18px] font-medium">2</span>
             </div>
           </div>
           <div className="w-[150px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
-            <div className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center">
+            <div
+              className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+              style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
+            >
               <span className="lg:text-[26px] text-[18px] font-medium">
                 Day
               </span>
@@ -42,7 +42,10 @@ const TimeUntilIcoClose = () => {
             </div>
           </div>
           <div className="w-[150px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
-            <div className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center">
+            <div
+              className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+              style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
+            >
               <span className="lg:text-[26px] text-[18px] font-medium">
                 Hour
               </span>

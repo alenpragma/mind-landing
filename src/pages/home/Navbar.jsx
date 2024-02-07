@@ -26,17 +26,21 @@ const Navbar = () => {
     <div
       className={`${
         isScrolled
-          ? "bg-[#a67c00] duration-500 py-1"
+          ? "bg-[#fff] duration-500 py-1 shadow-2xl"
           : "transition-all duration-500 py-[35px]"
-      } w-full fixed top-0 left-0 z-10`}
+      } w-full fixed top-0 left-0 z-[999]`}
     >
       <div className="w-full relative max-w-[1680px] mx-auto px-5">
         <div className="flex justify-between items-center">
           <img className="max-w-[192px]" src={logo} alt="" />
-          <ul className="md:flex items-center hidden space-x-12 text-[#fff]">
+          <ul
+            className={`md:flex items-center hidden space-x-12  ${
+              isScrolled ? "text-[#000000]" : "text-[#fff]"
+            }`}
+          >
             {navItem}
           </ul>
-          <button className="md:flex hidden btn btn-orange px-[35px] py-[15px]">
+          <button className="md:flex hidden btn btn-orange px-[35px] py-[15px] hover:text-[#fff] hover:scale-[1.03] duration-300">
             contact Us
           </button>
           <div className="md:hidden" onClick={() => setIsRotate(!isRotate)}>

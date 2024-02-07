@@ -26,7 +26,7 @@ const HeroSection = () => {
                 ecosystem, pioneering possibilities in the decentralized
                 landscape.
               </p>
-              <button className="btn btn-orange px-[14px] md:px-[70px] lg:px-[98px] lg:py-[30px] py-[20px] md:text-[28px] text-[20px] text-[353535] font-medium">
+              <button className="btn btn-orange px-[14px] md:px-[70px] lg:px-[98px] lg:py-[30px] py-[20px] md:text-[28px] text-[20px] text-[353535] font-medium hover:text-[#fff] hover:scale-[1.03] duration-300">
                 Explore
               </button>
             </div>
@@ -35,30 +35,53 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="lg:absolute lg:bottom-[69px] bottom-5">
-            <h2 className="text-[#fff] font-semibold mg:text-[40px] text-[24px] text-center mb-[46px]">Offer Ends On</h2>
+            <h2 className="text-[#fff] font-semibold mg:text-[40px] text-[24px] text-center mb-[46px]">
+              Offer Ends On
+            </h2>
             <div className="flex flex-wrap gap-7">
               <div className="w-[180px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
-                <div className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">Month</span>
+                <div
+                  className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+                  style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
+                >
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    Month
+                  </span>
                 </div>
                 <div className=" py-[18px] bg-[#fff] rounded-b-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">2</span>
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    2
+                  </span>
                 </div>
               </div>
               <div className="w-[180px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
-                <div className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">Day</span>
+                <div
+                  className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+                  style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
+                >
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    Day
+                  </span>
                 </div>
                 <div className=" py-[18px] bg-[#fff] rounded-b-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">120</span>
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    120
+                  </span>
                 </div>
               </div>
               <div className="w-[180px] md:w-[200px] lg:w-[241px] flex flex-col rounded-lg">
-                <div className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">Hour</span>
+                <div
+                  className="py-[18px] bg-[#ffbf00] rounded-t-lg text-center z-10"
+                  style={{ boxShadow: "#B4B4B8 0px 2px 3px 0px" }}
+                >
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    Hour
+                  </span>
                 </div>
                 <div className=" py-[18px] bg-[#fff] rounded-b-lg text-center">
-                  <span className="lg:text-[26px] text-[18px] font-medium">2150</span>
+                  <span className="lg:text-[26px] text-[18px] font-medium">
+                    2150
+                  </span>
                 </div>
               </div>
             </div>

@@ -11,3 +11,7 @@
         @apply bg-[#FFBF00]
     }
 }
+
+.footer-text-style{
+    @apply font-normal text-[16px] text-[#E2E8F0]
+  }
