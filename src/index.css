@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn{
+        @apply rounded-lg;
+        @apply text-[#353535]
+    }
+    .btn-orange{
+        @apply bg-[#FFBF00]
+    }
+}
