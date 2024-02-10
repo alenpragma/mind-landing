@@ -15,11 +15,11 @@ const Home = () => {
      <Navbar />
      <HeroSection />
      <WhychooseUsSection />
-     <WhatIsMandChain />
+     {/* <WhatIsMandChain /> */}
      <WhatCanMindChainDo />
      <MindcahinInNumbers />
      <TimeUntilIcoClose />
-     <OurOtherProject />
+     {/* <OurOtherProject /> */}
      <OurRoadMap />
      <Footer />
     </>

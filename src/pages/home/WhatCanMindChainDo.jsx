@@ -55,7 +55,7 @@ const WhatCanMindChainDo = () => {
       </Heading>
       <div className="grid grid-cols-12 gap-5">
         {doMindChainData.map((data, i) => (
-          <div key={i} className="col-span-6 lg:col-span-4 rounded-lg border-r border-r-[#FFBF00]">
+          <div key={i} className="col-span-12 lg:col-span-4 rounded-lg border-r border-r-[#FFBF00]">
             <img className="size-[90px]" src={data.img} alt="" />
             <h2 className="font-semibold text-[24px] mt-[33px] mb-[15px]">{data.title}</h2>
             <p className="text-[14px] text-[#414141]">{data.description}</p>

@@ -53,7 +53,7 @@ const WhychooseUsSection = () => {
       <Heading className="mb-[66px] border-b-2 border-[#FFBF00]">Why Choose Us-</Heading>
       <div className="grid grid-cols-12 gap-5">
         {whyChooseUsData.map((data, i) => (
-          <div className="col-span-6 md:col-span-4 border border-[#FFBF00] rounded px-[34px]" key={i}>
+          <div className="col-span-12 md:col-span-4 border border-[#FFBF00] rounded px-[34px]" key={i}>
             <img className="w-full" src={data.img} alt="" />
             <div className="mt-[30px] mb-[89px]">
             <h2 className="my-[35px] text-[24px] font-semibold text-[#1F1F1F]">{data.title}</h2>

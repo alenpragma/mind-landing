@@ -16,10 +16,10 @@ const Navbar = () => {
 
   const navItem = (
     <>
-      <li>House</li>
-      <li>Page</li>
-      <li>Blog</li>
-      <li>Contact</li>
+      <li className="hover:text-[#FFBF00] cursor-pointer duration-300 font-semibold text-[18px]">House</li>
+      <li className="hover:text-[#FFBF00] cursor-pointer duration-300 font-semibold text-[18px]">Page</li>
+      <li className="hover:text-[#FFBF00] cursor-pointer duration-300 font-semibold text-[18px]">Blog</li>
+      <li className="hover:text-[#FFBF00] cursor-pointer duration-300 font-semibold text-[18px]">Contact</li>
     </>
   );
   return (
@@ -27,14 +27,14 @@ const Navbar = () => {
       className={`${
         isScrolled
           ? "bg-[#fff] duration-500 py-1 shadow-2xl"
-          : "transition-all duration-500 py-[35px]"
+          : "transition-all duration-500 py-[20px]"
       } w-full fixed top-0 left-0 z-[999]`}
     >
       <div className="w-full relative max-w-[1680px] mx-auto px-5">
         <div className="flex justify-between items-center">
           <img className="max-w-[192px]" src={logo} alt="" />
           <ul
-            className={`md:flex items-center hidden space-x-12  ${
+            className={`md:flex items-center hidden space-x-12 ${
               isScrolled ? "text-[#000000]" : "text-[#fff]"
             }`}
           >
@@ -47,14 +47,14 @@ const Navbar = () => {
             <HiOutlineMenuAlt1
               className={`${
                 isRotate ? "rotate-360 duration-500" : "rotate-180 duration-500"
-              } text-[35px]`}
+              } text-[35px] md:text-[#000] text-[#fff]`}
             />
           </div>
         </div>
         <div
           className={`${
-            isRotate ? "flex flex-col md:hidden" : "hidden"
-          } w-1/2 h-[80vh] bg-red-500 absolute top-14 right-0`}
+            isRotate ? "flex flex-col right-0 transition-all ease-in duration-300 md:hidden" : "-right-[400px] duration-300 md:hidden"
+          } w-1/2 h-[100vh] bg-[#fff] absolute`}
         >
           <ul className="flex flex-col items-center gap-2">
             <li className="hover:bg-slate-400 hover:font-semibold hover:text-[#fff] duration-300 w-full text-center py-5">
@@ -70,7 +70,7 @@ const Navbar = () => {
               Contact
             </li>
           </ul>
-          <button className="w-full mt-10 btn btn-orange px-[35px] py-[15px]">
+          <button className="w-full mt-10 btn btn-orange px-[35px] py-[15px] font-semibold">
             contact Us
           </button>
         </div>

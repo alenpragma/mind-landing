@@ -7,7 +7,7 @@ const OurRoadMap = () => {
   return (
     <Container className="mb-[100px]">
       <Heading>Our Road map</Heading>
-      <div className="h-[400px] relative">
+      <div className="h-[500px] relative">
         <img className="w-full md:block hidden" src={roadmap} alt="" />
         <div className="lg:h-[319px] h-[200px] lg:w-[322px] md:w-[150px] w-full flex flex-col justify-between items-center md:absolute lg:top-[73px] top-7 left-5">
           <div className="w-[72px] lg:h-[50px] h-[72px] relative md:block hidden">
